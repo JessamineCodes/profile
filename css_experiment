@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(14, 13, 13);
+  color: white;
+  font-family: abel;
+  font-weight: 800;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.background-img {
+  width: 500px;
+  margin: 40px auto;
+  padding: 50px;
+  text-align: center;
+}
+/* div {
+  /* width: 500px;
+  margin: 40px auto;
+  padding: 50px;
+  text-align: center; */
+/* } */
+
+.transparent-box-background {
+  background-color: rgba(30, 30, 30, 0.6);
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+  justify-content: center;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+#background-grass {
+  background-image: url("./images/high-resolution-image-green-grass-background-grass-background-fresh-lawn-grass-texture-perfect-green-grass-carpet-grass-121173479.jpeg");
+}
+
+#background-fish {
+  background-image: url("./images/aquarium.jpeg");
+}
+
+#background-pebbles {
+  background-image: url("./images/rocks.jpeg");
+}
+
+#background-sea {
+  background-image: url("./images/sea.jpg");
+}
+
+#background-stars {
+  background-image: url("./images/night_sky.jpeg");
+}
+
+/* .background_image_template {
+    width: 500px;
+    height: 250px;
+    padding: 50px;
+    background-size: cover;
+} */
+.socials {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  position: absolute;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  line-height: 40px;
+}
+
+#white-button {
+  background-color: white;
+  color: rgb(3, 3, 28);
+  border-radius: 5px;
+  padding: 8px;
+}

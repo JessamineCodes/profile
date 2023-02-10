@@ -1,0 +1,181 @@
+/* Existing elements */
+body {
+  background-color: #111A2C;
+  color: white;
+  font-weight: 800;
+}
+
+h1 {
+  font-family: Abel;
+  font-size: 50px;
+  margin: 30px auto 0px auto;
+  padding-top: 10px;
+}
+
+h2 {
+  font-family: Abel;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px;
+}
+
+i {
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+}
+
+i:hover {
+  color: #00916E
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  line-height: 40px;
+}
+
+/* Classes - structural */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.background-card {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  height: 300px;
+  margin: 40px auto;
+  padding: 50px;
+  border: solid 2px #DCE1E9;
+  border-radius: 5px;
+}
+
+.card {
+  padding: 30px;
+  margin: 40px auto;
+}
+
+.transparent-box-background {
+  background-color: rgba(30, 30, 30, 0.7);
+  width: 600px;
+  border-radius: 10px;
+}
+
+/* IDs */
+#profile_img {
+  width: 300px;
+  border-radius: 50%;
+  margin: 0px auto;
+}
+
+#background-grass {
+  background-image: url("./images/high-resolution-image-green-grass-background-grass-background-fresh-lawn-grass-texture-perfect-green-grass-carpet-grass-121173479.jpeg");
+}
+
+#background-fish {
+  background-image: url("./images/aquarium.jpeg");
+  background-size: cover;
+}
+
+#background-pebbles {
+  background-image: url("./images/rocks.jpeg");
+}
+
+#background-sea {
+  background-image: url("./images/sea.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+#background-stars {
+  background-image: url("./images/night_sky.jpeg");
+  background-size: cover;
+  width: 100%;
+}
+
+#intro-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 700px;
+  height: 600px;
+  margin: 40px auto;
+  padding: 50px;
+  border: solid 2px #DCE1E9;
+  border-radius: 5px;
+}
+
+#follow-me-card {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  margin: 40px auto;
+  padding: 50px;
+  border: solid 2px #DCE1E9;
+  border-radius: 5px;
+}
+
+#button-white {
+  background-color: white;
+  color: rgb(3, 3, 28);
+  border-radius: 5px;
+  padding: 8px;
+  font-family: Abel;
+  font-size: 25px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+#button-white:hover {
+  background: linear-gradient(-45deg, rgb(132, 188, 163), #013c2f);
+  color: white;
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	height: 100vh;
+}
+
+#subtitle {
+  margin: 0px;
+}
+
+/* Keyframes */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*Container */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
