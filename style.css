@@ -93,13 +93,13 @@ ul {
 #background-sea {
   background-image: url("./images/sea.jpg");
   background-size: cover;
-  width: 100%;
+  width: 800px;
 }
 
 #background-stars {
   background-image: url("./images/night_sky.jpeg");
   background-size: cover;
-  width: 100%;
+  width: 800px;
 }
 
 #intro-card {
